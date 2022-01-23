@@ -1,0 +1,29 @@
+<div id="div-form">
+  <h2>Formularz Covid-19</h2>
+
+  <mat-form-field class="mat-field" appearance="outline">
+    <mat-label>Imię</mat-label>
+    <input matInput [(ngModel)]="name" placeholder="Podaj imię">
+  </mat-form-field>
+
+  <mat-form-field class="mat-field" appearance="outline">
+    <mat-label>Nazwisko</mat-label>
+    <input matInput [(ngModel)]="surname" placeholder="Podaj nazwisko">
+  </mat-form-field>
+
+  <mat-form-field class="mat-field" appearance="outline">
+    <mat-label>Nazwa szczepionki</mat-label>
+    <input matInput [(ngModel)]="vaccine_name" placeholder="Podaj nazwę szczepionki">
+  </mat-form-field>
+
+  <mat-form-field class="mat-field" appearance="outline">
+    <mat-label>Ilość przyjętych dawek</mat-label>
+    <input matInput [(ngModel)]="count" placeholder="Podaj ilość przyjętych dawek">
+    <mat-hint>Wprowadź cyfrę (1-9)</mat-hint>
+  </mat-form-field>
+
+  <div class="button-div">
+    <button mat-raised-button (click)="addPerson()">Wyślij formularz!</button>
+  </div>
+
+</div>

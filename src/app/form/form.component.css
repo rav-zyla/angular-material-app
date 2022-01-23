@@ -1,0 +1,23 @@
+#div-form{
+  margin: 0 auto;
+  width: 50%;
+}
+
+h2{
+  text-align: center;
+}
+
+.mat-field{
+  width: 100%;
+}
+
+.button-div{
+  margin: 20px auto;
+  width: 30%;
+}
+
+.button-div button{
+  width: 100%;
+  padding: 10px;
+}
+
