@@ -1,4 +1,7 @@
-# MatProject
+# angular-material-app
+---
+A web application created for the purposes of training and learning about Angular Material.
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
